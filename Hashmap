@@ -1,0 +1,19 @@
+import java.util.HashMap;
+
+public class HashMapDemo {
+    public static void main(String[] args) {
+        // Creating a HashMap
+        HashMap<String, Integer> ageMap = new HashMap<>();
+
+        // Storing key-value pairs
+        ageMap.put("Alice", 25);
+        ageMap.put("Bob", 30);
+        ageMap.put("Charlie", 35);
+
+        // Accessing values using keys
+        System.out.println("Alice's age: " + ageMap.get("Alice"));
+        
+        // Display all key-value pairs
+        System.out.println("All key-value pairs: " + ageMap);
+    }
+}
