@@ -1,0 +1,16 @@
+import java.util.HashSet;
+
+public class HashSetDemo {
+    public static void main(String[] args) {
+        // Creating a HashSet
+        HashSet<String> fruits = new HashSet<>();
+
+        // Adding elements
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Apple");  // Duplicate element
+
+        // Displaying elements
+        System.out.println("Fruits in the HashSet: " + fruits);
+    }
+}
